@@ -1,0 +1,14 @@
+HOW TO ADD THE BIRTHDAY PHOTO
+================================
+
+To add the birthday person's photo:
+
+1. Place your photo file in the /public folder
+2. Rename it to: photo-placeholder.jpg
+   (or update the filename in pages/[...name].js if you prefer a different name)
+
+3. Supported formats: .jpg, .jpeg, .png, .webp
+
+The photo will appear in a circular frame on the birthday wish page!
+
+Current location for photo: /public/photo-placeholder.jpg

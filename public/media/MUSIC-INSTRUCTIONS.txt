@@ -1,0 +1,36 @@
+HOW TO CHANGE THE BIRTHDAY MUSIC
+==================================
+
+To add a soothing melody:
+
+OPTION 1 - Simple Replacement:
+-------------------------------
+1. Find or download a soothing melody (MP3 format)
+2. Rename it to: hbd.mp3
+3. Replace the existing file at: /public/media/hbd.mp3
+4. Refresh the birthday page - done!
+
+OPTION 2 - Keep Both Files:
+----------------------------
+1. Place your new audio file in: /public/media/
+   (e.g., soothing-melody.mp3)
+2. Update the code in pages/[...name].js line 198:
+   Change: <source src="media/hbd.mp3" />
+   To: <source src="media/your-filename.mp3" />
+
+RECOMMENDED SOOTHING MELODIES:
+------------------------------
+You can search for:
+- "Peaceful Piano Birthday"
+- "Acoustic Birthday Melody"
+- "Soft Instrumental Birthday"
+- "Gentle Birthday Music"
+
+FREE MUSIC SOURCES:
+-------------------
+- YouTube Audio Library (royalty-free)
+- Free Music Archive
+- Pixabay Music
+- Incompetech
+
+Current file: /public/media/hbd.mp3
